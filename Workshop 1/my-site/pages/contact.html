@@ -13,79 +13,107 @@
 
   <nav>
     <a href="../index.html">Home</a> |
-    <a href="courses.html">Courses</a> |
-    <a href="schedule.html">Schedule</a> |
-    <a href="hobbies.html">Hoobies</a> |
-    <a href="clubs.html">Clubs</a> |
+    <a href="about.html">About</a> |
+    <a href="skills.html">Skills</a> |
+    <a href="projects.html">Projects</a> |
+    <a href="experience.html">Experiences</a> |
     <a href="contact.html">Contact</a>
   </nav>
 
-  <main>
-    <section>
-      <h2>Formulario de contacto</h2>
+<main>
+  <section>
+    <h2>Contact Me</h2>
 
-      <form>
+    <p>
+      If you would like to get in touch with me, you can contact me through
+      the following channels:
+    </p>
 
-        <p>
-          <label for="name">Nombre completo:</label><br>
-          <input type="text" id="name" name="name" required>
-        </p>
+    <ul>
+      <li>
+        <strong>Email:</strong>
+        <a href="mailto:emmavargas1201@gmail.com">
+          emmavargas1201@gmail.com
+        </a>
+      </li>
 
-        <p>
-          <label for="email">Correo electrónico:</label><br>
-          <input type="email" id="email" name="email" required>
-        </p>
+      <li>
+        <strong>Phone:</strong>
+        <a href="tel:+593999661358">
+          0999661358
+        </a>
+      </li>
 
-        <p>
-          <label for="dob">Fecha de nacimiento:</label><br>
-          <input type="date" id="dob" name="dob" required>
-        </p>
+      <li>
+        <strong>Location:</strong> Quito, Ecuador
+      </li>
+    </ul>
+  </section>
 
-        <p>
-          <label for="program">Programa académico:</label><br>
-          <select id="program" name="program" required>
-            <option value="">-- Selecciona --</option>
-            <option value="cs">Ciencias de la Computación</option>
-            <option value="biotech">Biotecnología</option>
-            <option value="chem">Ingeniería Química</option>
-            <option value="other">Otro</option>
-          </select>
-        </p>
+  <section>
+    <h2>Professional Profiles</h2>
 
-        <p>
-          <label for="semester">Semestre:</label><br>
-          <input type="number" id="semester" name="semester" min="1" max="10" required>
-        </p>
+    <ul>
+      <li>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/EmmaVargasR" target="_blank">
+          github.com/EmmaVargasR
+        </a>
+      </li>
 
-        <p>
-          <label for="reason">Motivo de contacto:</label><br>
-          <input type="radio" id="reason-academic" name="reason" value="academic">
-          <label for="reason-academic">Académico</label>
+      <li>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/emma-vargas-980137310/" target="_blank">
+          LinkedIn
+        </a>
+      </li>
+    </ul>
+  </section>
 
-          <input type="radio" id="reason-tech" name="reason" value="technical">
-          <label for="reason-tech">Técnico</label>
+  <section>
+    <h2>Contact Form</h2>
 
-          <input type="radio" id="reason-other" name="reason" value="other">
-          <label for="reason-other">Otro</label>
-        </p>
+    <form>
+      <p>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required>
+      </p>
 
-        <p>
-          <label for="message">Mensaje:</label><br>
-          <textarea id="message" name="message" rows="5" cols="40" required></textarea>
-        </p>
+      <p>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
 
-        <p>
-          <input type="checkbox" id="accept" name="accept" required>
-          <label for="accept">Acepto los términos y condiciones</label>
-        </p>
+      <p>
+        <label for="reason">Reason for Contact:</label><br>
 
-        <p>
-          <button type="submit">Enviar</button>
-        </p>
+        <input type="radio" id="reason-academic" name="reason" value="academic">
+        <label for="reason-academic">Academic</label>
 
-      </form>
-    </section>
-  </main>
+        <input type="radio" id="reason-work" name="reason" value="work">
+        <label for="reason-work">Work / Collaboration</label>
+
+        <input type="radio" id="reason-other" name="reason" value="other">
+        <label for="reason-other">Other</label>
+      </p>
+
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+      </p>
+
+      <p>
+        <input type="checkbox" id="accept" name="accept" required>
+        <label for="accept">I accept the terms and conditions</label>
+      </p>
+
+      <p>
+        <button type="submit">Send Message</button>
+      </p>
+    </form>
+  </section>
+</main>
+
 
   <footer>
     <p>&copy; 2026 Emma — Yachay Tech.</p>
