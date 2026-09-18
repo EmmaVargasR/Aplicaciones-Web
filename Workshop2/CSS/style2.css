@@ -5,10 +5,10 @@
 button {
   background-color: #222;
   color: white;
-  border: none;
+  border: none; /* Sin borde */
   padding: 12px 25px;
-  border-radius: 6px;
-  cursor: pointer;
+  border-radius: 6px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor cuando se pasa por encima */
   font-size: 16px;
 }
 
@@ -20,11 +20,11 @@ button:hover {
    FORM
 */
 
-form {
+form { /* Estilo del formulario */
   max-width: 600px;
 }
 
-input,
+input, /* seleccionamos tres tipos de elementos al mismo tiempo */
 select,
 textarea {
   width: 100%;
@@ -35,11 +35,11 @@ textarea {
   font-family: inherit;
 }
 
-textarea {
+textarea { /*campo donde escribimos mensajes*/
   resize: vertical;
 }
 
-input[type="radio"],
+input[type="radio"], /* seleccionamos un input cuyo atributo type es radio */
 input[type="checkbox"] {
   width: auto;
   margin-right: 5px;

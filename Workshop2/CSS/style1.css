@@ -2,15 +2,20 @@
    GENERAL STYLES
    */
 
+
+   /* 
+   * es un slector universal que selecciona todos los elementos HTML del documento.
+   */
+   
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
-body {
+body { /* Estilo del cuerpo del documento */
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f5f5f5;
-  color: #222;
+  background-color: #F8FAFC;
+  color: #1F2937;
   line-height: 1.6;
 }
 
@@ -18,75 +23,108 @@ body {
    NAVIGATION
     */
 
-nav {
-  background-color: #222;
+/*
+   NAVIGATION
+*/
+
+nav { /* Estilo de la sección de navegación */
+  background-color: #1E3A5F; /* Azul oscuro */
   padding: 20px;
   text-align: center;
 }
 
-nav a {
+nav a { /* Elementos dentro de nav */
   color: white;
   text-decoration: none;
   margin: 0 10px;
-  font-weight: bold;
+  font-weight: bold; /* Negrita */
 }
 
-nav a:hover {
-  color: #8ab4f8;
+nav a:hover { /* cuando el mouse está encima del elemento */
+  color: #6BBF9A; /* Verde claro */
 }
+
 
 /*
    MAIN CONTENT
-  */
+*/
 
-main {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 25px;
+main { /* Estilo de la sección principal */
+  max-width: 1000px; /* El contenido no puede exceder este ancho */
+  margin: 40px auto; /* Este es un comentario */
+  padding: 0 25px; /* Espacio interno de un elemento */
+  /* padding: arriba/abajo izquierda/derecha */
+  /* 
+    arriba     → 0px
+    derecha    → 25px
+    abajo      → 0px
+    izquierda  → 25px
+  */
 }
 
 section {
   background-color: white;
-  padding: 30px;
-  margin-bottom: 30px;
-  border-radius: 10px;
+  padding: 30px;  /* Quiero 30px de espacio interno */
+  margin-bottom: 30px; /* Deja 30px de separación entre una sección y la siguiente. */
+  border-radius: 10px; /*  Redondea las esquinas. */
 }
 
-/* 
+.home-intro { /* el punto al inicio significa: Busca todos los elementos que tengan la clase home-intro  */
+  text-align: center; /* el texto dentro de esta sección se alina al centro   */
+}
+
+.home-intro img { /* Busca todas las imágenes dentro de elementos con la clase home-intro */
+  display: block; /* trae esta imagen como un bloque independiente  */
+  margin: 0 auto; /* con auto el navegador calcula automaticamente el margen izquiero y derecho */
+}
+
+.experience-images { /* todas las imagenes de la paguina experience */
+  display: flex; /* Los elementos que están dentro de este contenedor deben organizarse utilizando FLEXBOX */
+  justify-content: center; /* coloca los elementos en el centro del contenedor */
+  gap: 20px; /* Espacio interno de un elemento */
+  flex-wrap: wrap; /* Si los elementos ya no caben en una sola fila, permite que pasen a la siguiente */
+}
+
+
+/*
    HEADINGS
-   */
+*/
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 2.5rem; /* 2.5 veces el tamaño de la fuente base */
+  margin-bottom: 10px; /* Deja un espacio de 10px entre el título y el siguiente elemento */
+  color: #1E3A5F;
 }
 
 h2 {
-  color: #333;
+  color: #2E8B72; /* Verde */
   margin-bottom: 20px;
 }
 
 h3 {
-  color: #444;
+  color: #1E3A5F;
 }
+
 
 /*
    LINKS
-   */
+*/
 
 a {
-  color: #2563eb;
+  color: #2E8B72;
 }
 
-a:hover {
+a:hover { /* cuando el mouse está encima del elemento */
+  color: #1E3A5F;
   text-decoration: underline;
 }
 
-/* 
-   IMAGES
-    */
 
-img {
+/*
+   IMAGES
+*/
+ 
+img { /* Estilo para todas las imágenes del sitio */
   max-width: 100%;
   height: auto;
   border-radius: 8px;
