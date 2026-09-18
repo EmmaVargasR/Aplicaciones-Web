@@ -1,0 +1,82 @@
+/*
+   BUTTONS
+   */
+
+button {
+  background-color: #222;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+/*
+   FORM
+*/
+
+form {
+  max-width: 600px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+/* 
+   PROJECTS
+   */
+
+article {
+  margin-bottom: 25px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+article:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/*
+   SKILLS
+   */
+
+ul {
+  padding-left: 25px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/*
+   PROFILE
+    */
+
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+}
